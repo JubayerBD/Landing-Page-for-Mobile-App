@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --brand-color: #8828FF;
+}
+.brand-color{
+    background-color: var(--brand-color);
+}
+.brand-color-text{
+    color:#8828FF;
+}
+h1,h2{
+    font-family: 'Space Grotesk', sans-serif;
+}
+.header{
+    background: url('images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+.mobile-menu ul li{
+    margin: 10px;
+}
+.app-button{
+    background: #F8F2FF;
+    color: var(--brand-color);
+}
+.pricing{
+    background: url('images/price-bg.png') no-repeat;
+    background-size: cover;
+}
+.price-btn{
+    background-color: #F8F2FF;
+}
+.before-footer{
+    background: url('images/before\ footer\ bg.png') no-repeat;
+    background-size: cover;
+}
+.fa-facebook{
+color: #18ACFE;
+}
+.fa-twitter{
+    color:#47ACDF;
+}
+.fa-instagram{
+    color:RGB(254,218,117);
+}
+.footer{
+    background: #260055;
+}

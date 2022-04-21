@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS Files  -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css"
+        integrity="sha512-OivR4OdSsE1onDm/i3J3Hpsm5GmOVvr9r49K3jJ0dnsxVzZgaOJ5MfxEAxCyGrzWozL9uJGKz6un3A7L+redIQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS Files End -->
+    <title>Tazkily WebApp</title>
+</head>
+
+<body>
+    <!-- Header Section Start  -->
+    <header class="header lg:pb-48 pb-16">
+
+        <!-- Navigation Section Start  -->
+        <nav>
+            <!-- Desktop Navigation Start  -->
+            <div class="md:flex lg:flex justify-between items-center py-4 px-0 sm:px-12 lg:px-96 hidden">
+                <img src="images/logo.png" alt="" width="100px">
+                <div class="main-nav hidden sm:block">
+                    <ul class="md:flex lg:flex gap-8 text-violet-600">
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Contact</li>
+                        <li>Pricing</li>
+                        <li>Blog</li>
+                    </ul>
+                </div>
+                <div class="right-nav hidden sm:block">
+                    <ul class="md:flex lg:flex items-center gap-8 text-violet-600">
+                        <li>Login</li>
+                        <li class="border rounded-2xl p-2 px-4 border-violet-600">Get Started</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Desktop Navigation End  -->
+            <!-- Mobile Navigation Start   -->
+            <div class="sm:hidden">
+                <div class="flex justify-between items-center p-4">
+                    <img src="images/logo.png" alt="" width="100px">
+                    <p class="mobile-menu-icon"><i class="fa-solid fa-bars"></i></p>
+                </div>
+
+                <div class="mobile-menu bg-white hidden py-4">
+                    <ul class="text-center text-violet-600">
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Contact</li>
+                        <li>Pricing</li>
+                        <li>Blog</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Mobile Navigation End  -->
+        </nav>
+        <!-- Navigation Section End  -->
+        <!-- Top Section Start  -->
+        <div class="md:flex flex-row justify-between items-center md:py-24 lg:px-96">
+            <div class="py-12 px-4 sm:py-0 sm:px-0 md:pl-12 lg:pl-0 lg:w-1/2">
+                <h1 class="text-3xl sm:text-4xl text-white leading-12 break-normal lg:text-6xl">One place to
+                    organise,communicate and store work</h1>
+                <p class="text-white my-4">For businesses who need clarity, productive<br> communication, prioritisation
+                    and
+                    accountability.</p>
+                <div class="flex gap-8 py-8 items-center">
+                    <button class="bg-violet-600 text-white rounded-full px-4 py-2">Get Started</button>
+                    <p class="text-white">Try Free Trial</p>
+                </div>
+            </div>
+            <div class="lg:w-1/2">
+                <img class="" src="images/images-1.png" alt="">
+            </div>
+        </div>
+        <!-- Top Section End -->
+    </header>
+    <!-- App Section Start  -->
+    <section class="relative lg:px-96">
+        <div class="md:flex justify-between items-center md:px-4 md:gap-8 md:my-12">
+            <!-- App Content Mobile  -->
+            <div class="app-content--mobile px-4 sm:hidden lg:w-1/2">
+                <h2 class="text-3xl font-bold my-12">Connect With Apps<br> You Use for Work</h2>
+                <p class="mb-4">Tazkily integrates with the products you use, bringing all your tasks, files and
+                    communications in one place so you always know what to do next.</p>
+                <button class="app-button px-4 py-2 rounded-full mb-4">Browse Integrations</button>
+            </div>
+            <!-- App Content Mobile End -->
+            <div class="app-image px-4 lg:w-1/2">
+                <img class="w-72 md:w-full text-center" src="images/feature.png" alt="">
+            </div>
+            <div class="app-content hidden md:block lg:w-1/2">
+                <h2 class="text-3xl font-bold my-12">Connect With Apps<br> You Use for Work</h2>
+                <p class="mb-4 break-words">Tazkily integrates with the products you use, bringing all your tasks, files
+                    and communications in one place so you always know what to do next.</p>
+                <button class="app-button px-4 py-2 rounded-full mb-4">Browse Integrations</button>
+            </div>
+        </div>
+        <div class="circle">
+            <img class="absolute right-0 w-24 md:w-40 lg:w-48 sm:top-64" src="images/circle.png" alt="">
+        </div>
+    </section>
+    <section>
+        <div class="mt-28 sm:flex md:px-12 justify-between items-center md:mt-36 lg:px-96 lg:gap-12">
+            <div class="feature px-4 md:w-1/2">
+                <h2 class="text-3xl font-bold my-12">Easy and familiar<br> Real-time-chat <br> Features</h2>
+                <p class="mb-4">Tazkily integrates with the products you use, bringing all your tasks, files and
+                    communications in one place so you always know what to do next.</p>
+            </div>
+            <div class="md:w-1/2">
+                <img class="px-4 text-center" src="images/chat.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- App Section End  -->
+    <!-- Pricing Section Start  -->
+    <section class="md:mt-20 py-24 pricing lg:px-96">
+        <div class="text-center px-4">
+            <h2 class="text-4xl font-bold my-4">Your Suitable packaage for your needs</h2>
+            <p>Our powerful free plan gives you access to core Tazkily features.</p>
+        </div>
+        <div class="flex justify-center gap-12 items-center my-8">
+            <p>Monthly</p>
+            <div class="brand-color bg-slate-700 w-12 h-4 rounded-full">
+                <div class="w-4 h-4 bg-white rounded-full"></div>
+            </div>
+            <p>Yearly</p>
+        </div>
+        <!-- Pricing Table Start  -->
+        <div class="md:flex gap-8 lg:gap-4 px-8 lg:pt-12 md:justify-around items-center">
+            <!-- Free Plan  -->
+            <div class=" lg:w-1/3">
+                <div class="brand-color text-white p-4 sm:py-8 px-8 sm:px-4 rounded-t-2xl rounded-b-xl">
+                    <h2 class="text-xl">Free Plan</h2>
+                    <p class="text-lg"><span class="text-3xl items-center">$0</span> / Life Time</p>
+                </div>
+                <div class="bg-white px-8 sm:px-4 pb-4 rounded-b-xl shadow-lg shadow-blue-500/50">
+                    <ul class="">
+                        <li class="pt-2"><i class="brand-color-text mr-2 fa-solid fa-circle-check"></i>Today & Planning
+                            view</li>
+                        <li class="mt-2"><i class="brand-color-text mr-2 fa-solid fa-circle-check"></i>Checklist
+                            templates</li>
+                        <li class="mt-2"><i class="brand-color-text mr-2 fa-solid fa-circle-check"></i>Calendar
+                            integration</li>
+                        <li class="mt-2"><i class="brand-color-text mr-2 fa-solid fa-circle-check"></i>Browser extension
+                        </li>
+                    </ul>
+                    <div class="mt-4"><button class="price-btn brand-color-text px-4 py-2 rounded-full">Get
+                            Started</button></div>
+                </div>
+            </div>
+            <!-- Basic Plan Table  -->
+            <div class="mt-8 sm:mt-0 brand-color rounded-2xl relative lg:w-1/3">
+                <span class="bg-yellow-400 px-4 py-2 absolute right-4 rounded-b-xl">Recommend</span>
+                <div class="text-white p-4 sm:py-8 px-8 sm:px-4 rounded-t-2xl rounded-b-xl">
+                    <h2 class="text-xl">Basic Plan</h2>
+                    <p class="text-lg"><span class="text-3xl items-center">$10</span> / Per Month</p>
+                </div>
+                <div class="px-8 sm:px-4 pb-4 rounded-b-xl">
+                    <ul class="">
+                        <li class="pt-2 text-white"><i class="text-white mr-2 fa-solid fa-circle-check"></i>Everything
+                            in Free</li>
+                        <li class="mt-2 text-white"><i class="text-white mr-2 fa-solid fa-circle-check"></i>Checklist
+                            templates</li>
+                        <li class="mt-2 text-white"><i class="text-white mr-2 fa-solid fa-circle-check"></i>Premium
+                            integration</li>
+                        <li class="mt-2 text-white"><i class="text-white mr-2 fa-solid fa-circle-check"></i>30-day trial
+                        </li>
+                    </ul>
+                    <div class="mt-4"><button class="brand-color-text bg-white px-4 py-2 rounded-full">Get
+                            Started</button></div>
+                </div>
+            </div>
+            <!-- Advanced Place Table  -->
+            <div class="mt-8 sm:mt-0 lg:w-1/3">
+                <div class="brand-color text-white p-4 sm:py-8 rounded-t-2xl rounded-b-xl">
+                    <h2 class="text-xl">Advanced Plan</h2>
+                    <p class="text-lg"><span class="text-3xl items-center">$50</span> / Per Month</p>
+                </div>
+                <div class="bg-white px-4 pb-4 rounded-b-xl shadow-lg shadow-blue-500/50">
+                    <ul class="">
+                        <li class="pt-2"><i class="brand-color-text mr-2 fa-solid fa-circle-check"></i>Everything in
+                            Basic</li>
+                        <li class="mt-2"><i class="brand-color-text mr-2 fa-solid fa-circle-check"></i>Unlimited members
+                        </li>
+                        <li class="mt-2"><i class="brand-color-text mr-2 fa-solid fa-circle-check"></i>Dedicated support
+                        </li>
+                        <li class="mt-2"><i class="brand-color-text mr-2 fa-solid fa-circle-check"></i>All advance
+                            features*</li>
+                    </ul>
+                    <div class="mt-4"><button class="brand-color-text price-btn px-4 py-2 rounded-full">Get
+                            Started</button></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Pricing Section End -->
+    <!-- Blog Section Start  -->
+    <section class="my-16 lg:px-96 relative">
+        <div class="px-12 md:flex justify-between items-center gap-8">
+            <h2 class="text-4xl font-bold break-words">Ideas to help you navigate work</h2>
+            <p class="my-4 sm:my-0">We regularly share resources on startups, productivity, and the future of work</p>
+            <button class="md:w-1/3 brand-color px-8 py-4 rounded-full text-white">See More Articles</button>
+        </div>
+        <div class="my-12 px-8 gap-4 md:flex justify-between items-center">
+            <!-- Blog One  -->
+            <div class="flex gap-4 shadow-lg shadow-blue-500/50 p-4 lg:p-8 rounded-2xl">
+                <div>
+                    <img src="images/blog-one.png" alt="">
+                    <p class="pt-4">Published On <br><span class="brand-color-text">Octobor 26, 2021</span></p>
+                </div>
+                <div>
+                    <h3 class="text-2xl break-words font-bold">What’s growth hacking? 8 great books to learn more about
+                        it</h3>
+                    <p>How you can set personal boundaries to reduce stress and burnout</p>
+                </div>
+            </div>
+            <!-- Blog Two  -->
+            <div class="flex gap-4 shadow-lg shadow-blue-500/50 p-4 lg:p-8 rounded-2xl mt-8 sm:mt-0">
+                <div>
+                    <img src="images/blog-one.png" alt="">
+                    <p class="pt-4">Published On <br><span class="brand-color-text">Octobor 26, 2021</span></p>
+                </div>
+                <div>
+                    <h3 class="text-2xl break-words font-bold">3 experiments to improve your mobile funnel and reach
+                        your</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit interdum</p>
+                </div>
+            </div>
+            <!-- Blog Three  -->
+            <div class="flex gap-4 shadow-lg shadow-blue-500/50 p-4 lg:p-8 rounded-2xl mt-8 sm:mt-0">
+                <div>
+                    <img src="images/blog-one.png" alt="">
+                    <p class="pt-4">Published On <br><span class="brand-color-text">Octobor 26, 2021</span></p>
+                </div>
+                <div>
+                    <h3 class="text-2xl break-words font-bold">6 new interesting mobile apps to grow your audience on
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit interdumd</p>
+                </div>
+            </div>
+        </div>
+        <div class="grid justify-items-end pr-8">
+            <div><i class="brand-color-text mr-4 fa-solid fa-circle-chevron-left"></i><i
+                    class="brand-color-text fa-solid fa-circle-chevron-right"></i></div>
+        </div>
+    </section>
+    <!-- Blog Section End  -->
+    <!-- Social Icon Section Start  -->
+    <section class="px-8 lg:px-96">
+        <div class="my-16">
+            <h2 class="text-4xl font-bold text-center">Used by fellow productivity nerds at places like...</h2>
+        </div>
+        <div class="relative">
+            <!-- Social Top Line  -->
+            <p class="bg-white md:p-4 p-2 rounded-full absolute md:-top-8 md:left-36 left-16 lg:left-52 z-10"><i
+                    class="fa-brands fa-kickstarter-k md:fa-2x bg-green-500 md:p-4 p-2 rounded-full text-white"></i></p>
+            <p class="bg-white md:p-4 p-2 rounded-full absolute md:-top-8 md:left-96 lg:left-2/4 left-40 z-10"><i
+                    class="fa-brands fa-airbnb md:fa-2x bg-orange-600 md:p-4 p-2 rounded-full text-white"></i></p>
+            <p class="bg-white md:p-4 p-2 rounded-full absolute md:-top-8 md:right-10 right-8 z-10"><i
+                    class="fa-solid fa-fire-flame-curved md:fa-2x bg-orange-600 md:p-4 p-2 rounded-full text-white"></i>
+            </p>
+            <!-- Social Bottom Line -->
+            <p
+                class="bg-white md:p-4 p-2 rounded-full absolute md:top-20 -bottom-5 md:-bottom-0 md:left-10 left-4 z-10">
+                <i class="fa-brands fa-invision md:fa-2x bg-orange-600 md:p-4 p-2 rounded-full text-white"></i>
+            </p>
+            <p
+                class="bg-white md:p-4 p-2 rounded-full absolute md:top-20 -bottom-5 md:-bottom-0 md:left-1/3 left-28 z-10">
+                <i class="fa-brands fa-soundcloud md:fa-2x bg-orange-600 md:p-4 p-2 rounded-full text-white"></i>
+            </p>
+            <p
+                class="bg-white md:p-4 p-2 rounded-full absolute md:top-20 -bottom-5 md:-bottom-0 md:right-40 right-16 z-10">
+                <i class="fa-brands fa-linkedin-in md:fa-2x bg-blue-600 md:p-4 p-2 rounded-full text-white"></i>
+            </p>
+            <div class="">
+                <span><img class="absolute right-0 bottom w-32 md:w-64" src="images/right.png" alt="" width=""></span>
+                <span><img class="absolute left-0 w-32 md:w-64" src="images/left.png" alt="" width="260px"></span>
+            </div>
+            <div class="px-4 pt-4">
+                <div class="border border-4 md:border-8 w-full md:h-32 h-12 border-slate-300 rounded-full"></div>
+            </div>
+        </div>
+    </section>
+    <!-- Social Icon Section End  -->
+    <!-- Before Footer Section Start -->
+    <section class="mt-16">
+        <div class="before-footer px-8 lg:px-96 py-32">
+            <div class="lg:flex justify-between items-center gap-4">
+                <div>
+                    <h2 class="text-4xl font-bold text-white mb-4">Join other founders, freelancers, makers and many-hat
+                        wearers</h2>
+                    <p class="text-white">Join the thousands of other people just like you who started using Tazkily and
+                        took back control of their day</p>
+                </div>
+                <!-- Testimonial  -->
+                <div class="lg:flex gap-8 justify-between items-center">
+                    <!-- First-Card  -->
+                    <div class="bg-white shadow shadow-lg p-8 my-12 rounded-2xl">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, expedita.</p>
+                        <div class="flex gap-4 items-center mt-4">
+                            <img src="images/Frame 3.png" alt="">
+                            <h3>Vincen Macmahoon</h3>
+                        </div>
+                    </div>
+                    <!-- Second Card  -->
+                    <div class="bg-white shadow shadow-lg p-8 rounded-2xl">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, expedita.</p>
+                        <div class="flex gap-4 items-center mt-4">
+                            <img src="images/Frame 3.png" alt="">
+                            <h3>Vincen Macmahoon</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid justify-items-end mt-4 lg:mt-0">
+                <div><i class="brand-color-text mr-4 fa-solid fa-circle-chevron-left"></i><i
+                        class="brand-color-text fa-solid fa-circle-chevron-right"></i></div>
+            </div>
+        </div>
+        
+    </section>
+    <!-- Before Footer Section End-->
+    <!-- Footer Section Start -->
+    <section>
+        <div class="footer lg:px-96">
+            <!-- Top Footer  -->
+            <div class="px-8 py-8 md:flex justify-between gap-4">
+                <div class="md:w-1/4 mt-4">
+                    <img src="images/Group 80.png" alt="">
+                    <p class="mt-4 text-white">For businesses who need clarity, productive communication, prioritisation and accountability.</p>
+                    <div class="flex gap-8 mt-4">
+                        <i class="fa-brands fa-facebook text-xl"></i>
+                        <i class="fa-brands fa-twitter text-xl"></i>
+                        <i class="fa-brands fa-instagram text-xl"></i>
+                        <i class="fa-brands fa-linkedin text-xl text-blue-600"></i>
+                    </div>
+                    <p class="text-white mt-2 md:hidden">Made with ❤ by Tazkily Team</p>
+                </div>
+                <div class="flex gap-4 justify-between">
+                    <div class="text-white mt-4">
+                        <h2 class="text-xl">Usefull Links</h2>
+                        <div class="mt-4">
+                            <ul class="flex flex-col gap-2">
+                                <li>Try free trial</li>
+                                <li>Pricing plan</li>
+                                <li>Features updates</li>
+                                <li>Chrome extentions</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mt-4 text-white md:hidden">
+                        <h2 class="text-white text-xl">About Us</h2>
+                        <div class="mt-4">
+                            <ul class="flex flex-col gap-2">
+                                <li>What is Tazkily</li>
+                                <li>Term of use</li>
+                                <li>Contact us</li>
+                                <li>Work with us</li>
+                                <li>Help Center</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-4 text-white hidden md:block">
+                    <h2 class="text-white text-xl">About Us</h2>
+                    <div class="mt-4">
+                        <ul class="flex flex-col gap-2">
+                            <li>What is Tazkily</li>
+                            <li>Term of use</li>
+                            <li>Contact us</li>
+                            <li>Work with us</li>
+                            <li class="md:hidden">Help Center</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mt-4">
+                    <h2 class="text-white text-xl">Our Products</h2>
+                    <div class="mt-4">
+                        <ul class="flex flex-col gap-2 text-white">
+                            <li>Task management</li>
+                            <li>Document management</li>
+                            <li>Client management</li>
+                            <li>Integration apps</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <p class="text-white text-center pb-8 md:hidden">Copyright © Tazkily, 2021</p>
+            <!-- Footer Bottom  -->
+            <div>
+                <div class="md:flex justify-between px-8 py-8 hidden md:block">
+                    <p class="text-white">Made with ❤ by Tazkily Team</p>
+                    <p class="text-white">Copyright © Tazkily, 2021</p>
+                    <p class="text-white">Help Center</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer Section End -->
+    <script src="main.js"></script>
+</body>
+
+</html>
